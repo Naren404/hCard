@@ -6,7 +6,7 @@ const defaultState = {
   givenName: '',
   houseName: '',
   phone: '',
-  postcode: null,
+  postcode: '',
   stateName: '',
   street: '',
   suburb: '',

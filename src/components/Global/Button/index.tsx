@@ -13,7 +13,7 @@ const Button = (props: ButtonProps) => {
   const {buttonText, type = 'primary', onclick} = props
   
   const buttonStyle = {
-    background: BUTTON_TYPES[type].background
+    background: type ? BUTTON_TYPES[type].background : ''
   }
 
   return ( 
