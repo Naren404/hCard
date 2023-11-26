@@ -26,6 +26,8 @@ const CardRenderer = (props: CardRendererProps) => {
   return ( 
     <FlexContainer backgroundColor='rgb(207 214 221)' style={{ height: '100%', width: '100%' }}>
       <FlexContainer direction="column" style={{ gap: '0' }}>
+        <Text text="hcard preview" style={{marginLeft: 'auto'}} />
+
         <FlexContainer style={{ margin: '0', padding: '0', gap: '0', width: '500px' , backgroundColor: '#394f63',  justifyContent: 'space-between'}}>
             <Text 
               text={`${givenName} ${surname}`}
